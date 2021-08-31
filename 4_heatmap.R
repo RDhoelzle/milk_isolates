@@ -23,6 +23,6 @@ nrow(otu.heatmap.f)
 pal <- colorRampPalette(c("white","black"))(100)
 
 # Plot otu heatmap
-heatmap.otu <- pheatmap(sqrt(otu.heatmap.f), color = pal, border_color = "black",
+heatmap.otu <- pheatmap(otu.heatmap.f, color = pal, border_color = "black",
                     cluster_rows = F, cluster_cols = F, fontsize = 10, 
                     gaps_row = c(4,5,6,11), gaps_col = c(6,12,18))
