@@ -38,10 +38,14 @@ rm(otu.tmp) # tidy up
 env1 <- env.all[env.all$Q1 == 1,]
 env2 <- env.all[env.all$Q2 == 1,]
 env3 <- env.all[env.all$Q3 == 1,]
+env4 <- env.all[env.all$Q4 == 1,]
+env5 <- env.all[env.all$Q5 == 1,]
 
 otu1 <- otu.all[env.all$Q1 == 1,]
 otu2 <- otu.all[env.all$Q2 == 1,]
 otu3 <- otu.all[env.all$Q3 == 1,]
+otu4 <- otu.all[env.all$Q4 == 1,]
+otu5 <- otu.all[env.all$Q5 == 1,]
 
 w_unifrac1 <- w_unifrac.all[env.all$Q1 == 1,env.all$Q1 == 1]
 w_unifrac2 <- w_unifrac.all[env.all$Q2 == 1,env.all$Q2 == 1]
