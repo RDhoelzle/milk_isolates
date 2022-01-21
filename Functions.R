@@ -15,6 +15,7 @@ library(corrplot)
 library(mvabund)
 library(pheatmap)
 library(RColorBrewer)
+library(genoPlotR)
 
 ## Axis percent 
 # Returns the percentage varation on ordination axes
